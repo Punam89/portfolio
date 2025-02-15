@@ -1,0 +1,23 @@
+.img-fluid{
+    border-radius: 59px;
+    margin-left: 30%;
+}
+.maincolor{
+    color: rgb(0, 251, 167) ;
+}
+.p1 {
+    background-color: rgb(0, 251, 167);
+    text-align: right;
+    padding-right: 10px;
+    transition: 1.5s;
+    
+}
+li{
+
+    margin: 0 50px;
+    padding: 0 50px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
