@@ -40,7 +40,15 @@ jobs:
   Analysis:
     runs-on: ubuntu-latest
 
+
     steps:
+      # Add Java 17 setup here
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          
       - name: Analyze with SonarQube
 
         # You can pin the exact commit or the version.
